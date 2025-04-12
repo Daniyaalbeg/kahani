@@ -8,6 +8,9 @@ export default defineConfig({
 		preset: 'cloudflare-module',
 		unenv: cloudflare,
 	},
+	tsr: {
+		appDirectory: 'src',
+	},
 	vite: {
 		plugins: [
 			tsConfigPaths({
